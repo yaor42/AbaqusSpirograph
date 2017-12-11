@@ -70,7 +70,7 @@ modelSpirograph.RigidBody(name='RigidBar2', refPointRegion=regionRefPointBar2,
                           bodyRegion=region)  
 
 # Create step
-time = r2 / gcd(r1+r2, r2)
+time = r2 / gcd(r1+r2, r2) # period of system
 modelSpirograph.StaticStep(name='Step-1', 
                             previous='Initial', 
                             timePeriod=time, 
