@@ -9,3 +9,6 @@ Refer to [blog post](http://yaor.me/spirographs-in-abaqus/).
 2. Modify and run `PostProcessSpirograph.py` to draw spirograph curves.
 
 When the boolean flag `writePNG` in `PostProcessSpirograph.py` is set to `True`, the script outputs a series of PNGs that can be used to make animation GIF, refer to this [workflow](http://yaor.me/make-gifs-from-abaqus/).
+
+## Test
+The scripts are developed and tested in Abaqus 6.14-4.
