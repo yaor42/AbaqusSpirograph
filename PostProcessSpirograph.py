@@ -1,6 +1,6 @@
 jobName = 'Spirograph-1'
 color = '#b777b7'
-writePNG = True
+writePNG = False
 
 from abaqus import *
 from abaqusConstants import *
